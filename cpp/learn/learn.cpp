@@ -1,6 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+ double lengths(int s[], int t[])
+        {
+            return sqrt(pow(s[0] - t[0], 2) + pow(s[1] - t[1], 2));
+        }   
+        double sss(int s[],int t[],int q[])
+        {
+            double p = (lengths(s,t) + lengths(t,q) + lengths(q,s)) / 2;
+            return sqrt(p * (p - lengths(s,t)) * (p - lengths(t,q)) * (p - lengths(q,s)));
+        }
 int main(){
 
 
@@ -53,6 +63,16 @@ int main(){
     
 //     return 0;
 
+    // float a = 1.0;
+    // cout << setprecision(5) << fixed << a << endl;
+        // int a = 3, b = 4, c = 5;
+        // int p = (a + b + c) / 2;
+        // cout << sqrt(p * (p - a) * (p - b) * (p - c)) << endl;
+
+       
+        int s[] = {0,0}, t[] = {3,0}, q[] = {0,4};
+
+        cout << sss(s,t,q) << endl;
 
         
 
