@@ -1,0 +1,91 @@
+{
+	"schedules":	[{
+			"scheduleNo":	"K1001",
+			"departureTime":	"2026-06-25 07:30",
+			"startStation":	"北京",
+			"endStation":	"上海",
+			"travelTime":	"4小时30分",
+			"capacity":	50,
+			"bookedCount":	35
+		}, {
+			"scheduleNo":	"K1002",
+			"departureTime":	"2026-06-25 08:00",
+			"startStation":	"北京",
+			"endStation":	"广州",
+			"travelTime":	"8小时",
+			"capacity":	45,
+			"bookedCount":	20
+		}, {
+			"scheduleNo":	"K1003",
+			"departureTime":	"2026-06-25 09:00",
+			"startStation":	"上海",
+			"endStation":	"南京",
+			"travelTime":	"2小时",
+			"capacity":	35,
+			"bookedCount":	15
+		}, {
+			"scheduleNo":	"K1004",
+			"departureTime":	"2026-06-25 10:30",
+			"startStation":	"广州",
+			"endStation":	"深圳",
+			"travelTime":	"1小时30分",
+			"capacity":	40,
+			"bookedCount":	38
+		}, {
+			"scheduleNo":	"K1005",
+			"departureTime":	"2026-06-25 12:00",
+			"startStation":	"西安",
+			"endStation":	"成都",
+			"travelTime":	"6小时",
+			"capacity":	48,
+			"bookedCount":	28
+		}, {
+			"scheduleNo":	"K1006",
+			"departureTime":	"2026-06-25 14:00",
+			"startStation":	"成都",
+			"endStation":	"重庆",
+			"travelTime":	"2小时30分",
+			"capacity":	32,
+			"bookedCount":	10
+		}, {
+			"scheduleNo":	"K1007",
+			"departureTime":	"2026-06-25 15:30",
+			"startStation":	"武汉",
+			"endStation":	"长沙",
+			"travelTime":	"3小时",
+			"capacity":	42,
+			"bookedCount":	42
+		}, {
+			"scheduleNo":	"K1008",
+			"departureTime":	"2026-06-25 16:00",
+			"startStation":	"杭州",
+			"endStation":	"宁波",
+			"travelTime":	"1小时45分",
+			"capacity":	30,
+			"bookedCount":	5
+		}, {
+			"scheduleNo":	"K1009",
+			"departureTime":	"2026-06-25 18:00",
+			"startStation":	"天津",
+			"endStation":	"沈阳",
+			"travelTime":	"7小时",
+			"capacity":	52,
+			"bookedCount":	18
+		}, {
+			"scheduleNo":	"K1010",
+			"departureTime":	"2026-06-25 19:30",
+			"startStation":	"南京",
+			"endStation":	"合肥",
+			"travelTime":	"2小时",
+			"capacity":	38,
+			"bookedCount":	0
+		}, {
+			"scheduleNo":	"NO1",
+			"departureTime":	"2026-6-25 12��00",
+			"startStation":	"西安",
+			"endStation":	"广州",
+			"travelTime":	"4小时",
+			"capacity":	200,
+			"bookedCount":	0
+		}]
+}
