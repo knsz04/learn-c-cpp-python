@@ -39,3 +39,20 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio 工程缓存、编译临时文件
+.vs/
+*.suo
+*.vsidx
+*.ipch
+*.db
+*backup.json
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.log

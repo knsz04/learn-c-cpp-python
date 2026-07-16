@@ -24,7 +24,8 @@ int Initstack(Stack *s)
  
 int Push(Stack *s, int a)
 {
-    if(s->top - s->base >= s->stacksize){
+    if(s->top - s->base >= s->stacksize)
+    {
         s->base = (int *)realloc(s->base, (s->stacksize + STACKINCREMENT) * sizeof(int));
         if (!s->base) {
             printf("分配内存失败\n");
@@ -32,13 +33,14 @@ int Push(Stack *s, int a)
         }
         s->top = s->base + s->stacksize;
         s->stacksize += STACKINCREMENT;
+        
     }
-    else {
+    
         
         *(s->top) = a;
-         s->top++; 
+         s->top ++; 
         return 0;
-    }
+    
 }
 
 int Pop(Stack *s)
@@ -77,16 +79,20 @@ int RadixConvert(int n)
         printf("%d",a);
     }
     free(s.base);
+    return 0;
 }
 
 int main()
 
 {
+    
     int n;
     printf("请输入一个十进制数：");
     scanf("%d",&n); 
     printf("转换成八进制数为：");
     RadixConvert(n);
     return 0;
+    getchar();
+    
     
 }
